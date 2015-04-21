@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html class="full">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% block title '' %}BEELDR ZENDER</title>
+
+    <link href="{{ app.request.basepath }}/css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="{{ app.request.basepath }}/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <!-- Twitter Bootstrap -->
+    <link rel="stylesheet" href="{{ app.request.basepath }}/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link href="{{ app.request.basepath }}/css/cover.css" rel="stylesheet">
+
+    <script src="{{ app.request.basepath }}/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+{% block content %}{% endblock %}
+</body>
+</html>
